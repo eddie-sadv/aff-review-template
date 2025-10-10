@@ -1,8 +1,4 @@
 {
-  "builds": [{ "src": "index.html", "use": "@vercel/static" }],
-  "routes": [
-    { "src": "/index.html", "dest": "/" },
-    { "handle": "filesystem" },
-    { "src": "/(.*)", "dest": "/index.html" }
-  ]
+  "builds": [{ "src": "index.html", "use": "@vercel/static" }]
 }
+
